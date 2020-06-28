@@ -27,5 +27,5 @@ samples, guidance on mobile development, and a full API reference.
                 ステータス情報をストリーミング
                 実際の処理はレポジトリを呼び出し
     あとはひたすら画面パーツを作りこむ
-    
+
 
