@@ -14,3 +14,18 @@ A few resources to get you started if this is your first Flutter project:
 For help getting started with Flutter, view our
 [online documentation](https://flutter.dev/docs), which offers tutorials,
 samples, guidance on mobile development, and a full API reference.
+
+やること
+    インストーラーの移植
+    方針
+        コントローラで処理を記述
+            usecase blocを呼び出し
+                ストリーミング情報を処理
+                プレゼンターのデータを更新
+        プレゼンターで画面更新
+            usecase bloc
+                ステータス情報をストリーミング
+                実際の処理はレポジトリを呼び出し
+    あとはひたすら画面パーツを作りこむ
+    
+
