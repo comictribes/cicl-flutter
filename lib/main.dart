@@ -1,3 +1,4 @@
+import 'package:cicl/AppView/install.dart';
 import 'package:cicl/AppView/mainscreen.dart';
 import 'package:flutter/material.dart';
 
@@ -10,7 +11,7 @@ class Cicl extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Flutter Demo',
+      title: 'CICL',
       theme: ThemeData(
         primarySwatch: Colors.blue,
         visualDensity: VisualDensity.adaptivePlatformDensity,
